@@ -1,69 +1,100 @@
-# Welcome to your Lovable project
+# AI-Powered Real Estate Investment Platform
 
-## Project info
+## Introduction
+The AI-powered real estate investment platform optimizes key factors such as resale value, rental yield, durability, and maintenance costs. Using AI, users can explore multiple property scenarios before making significant financial commitments, reducing risks, and enhancing profitability.
 
-**URL**: https://lovable.dev/projects/29ff4166-3726-402e-bbea-9d08a4c2a0b2
+---
+Demo link : https://preview--ai-property-optimus.lovable.app/
 
-## How can I edit this code?
+## Features
+- Market & Cost Analysis
+- Zoning Optimizer
+- Financial Planning
+- Scenario Planning
+- Material & Construction Cost Estimates
+- Project Management Support
+- 3D Virtual Property Model
+- ROI Heatmap
+- Tax Optimization Strategies
+- Land Acquisition Insights
+- Regulatory Compliance Checker
+- AI-Driven Design Optimization
+- Hyperlocal Demand Forecasting
+- Risk Simulation
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## Technology Stack
+### Frontend:
+- React.js (for user interface and interactive tools)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/29ff4166-3726-402e-bbea-9d08a4c2a0b2) and start prompting.
+### Backend:
+- FastAPI (for API handling and AI integration)
 
-Changes made via Lovable will be committed automatically to this repo.
+### AI Models:
+- Python (for valuation, zoning analysis, risk assessment, and forecasting)
 
-**Use your preferred IDE**
+### Database:
+- PostgreSQL (for property data storage)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Cloud Services:
+- AWS S3 or Firebase (for storing reports, 3D models)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
-
+## Setup Instructions
+### Step 1: Clone the repository using the project's Git URL.
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone https://github.com/adinarayana02/real_estate_application
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Step 2: Navigate to the project directory.
+```sh
+cd real_estate_application
+```
 
-# Step 3: Install the necessary dependencies.
+### Step 3: Install the necessary dependencies.
+```sh
 npm i
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### Step 4: Start the development server with auto-reloading and an instant preview.
+```sh
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Navigation Bar Features
+- Home
+- Properties
+- Agents
+- AI Property Analysis
+- About
+- Contact
+- Rentals
+- Lenders
+- Property Analysis
+- Search Option
+- Login
+- Register
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Contributing
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -m 'Added a new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Create a Pull Request.
 
-## What technologies are used for this project?
+---
 
-This project is built with .
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## Contact
+For any queries, feel free to reach out via email at support@realestateai.com.
 
-Simply open [Lovable](https://lovable.dev/projects/29ff4166-3726-402e-bbea-9d08a4c2a0b2) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
